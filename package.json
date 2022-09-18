@@ -6,9 +6,23 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@hookstate/core": "^4.0.0-rc21",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.4",
+    "@mui/x-data-grid": "^5.17.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "google-map-react": "^2.2.0",
+    "moment": "^2.29.4",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-pro-sidebar": "^0.7.1",
+    "sass": "^1.54.8",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
@@ -16,7 +30,12 @@
     "@types/react-dom": "18.0.5",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.2",
-    "typescript": "4.7.2"
-  }
+    "tailwindcss": "^3.1.2"
+  },
+  "name": "petramas",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }
